@@ -26,6 +26,7 @@ const Home = () => {
         <label>
           Pesquisar por tags:
           <input className='input' type="text" value={searchTerm} onChange={handleSearchChange} />
+          <button className='btn'>Pesquisar</button>
         </label>
       </div>
       <div className={styles.home}>
